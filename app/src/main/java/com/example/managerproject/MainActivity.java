@@ -15,8 +15,13 @@ public class MainActivity extends AppCompatActivity {
         // زر لفتح adminDashboard
         Button openAdminDashboardButton = findViewById(R.id.open_admin_dashboard_button);
         openAdminDashboardButton.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, adminDashboard.class);
+            Intent intent = new Intent(MainActivity.this, loginActivity.class);
             startActivity(intent);
+        });
+        Button profile =findViewById(R.id.pp);
+        profile.setOnClickListener(view -> {
+            Intent intent2 = new Intent(MainActivity.this, Profile.class);
+            startActivity(intent2);
         });
     }
 }

@@ -22,5 +22,14 @@
         android:text="Open Admin Dashboard"
         android:layout_gravity="center" />
 
+    <Button
+        android:id="@+id/pp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="profile"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="121dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
